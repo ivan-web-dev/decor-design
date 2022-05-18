@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decor Design</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <h2 class="header__logo">Intria</h2>
+            <input type="checkbox" id="check">
+            <ul class="header__list">
+                <li>
+                    <a href="../index.html" class="header__link">Home</a>
+                </li>
+                <li>
+                    <a href="studio.html" class="header__link">Studio</a>
+                </li>
+                <li class="drop-down-one">
+                    <a href="#" class="header__link">Projects</a>
+                    <div class="drop-down">
+                        <a href="work-view-one.html" class="drop-down__text">Work view-one</a>
+                        <a href="work-view-two.html" class="drop-down__text">Work view-two</a>
+                        <a href="work-details.html" class="drop-down__text">Work details</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="blog.html" class="header__link">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="header__link">Contact</a>
+                </li>
+            </ul>
+            <div class="languiges">
+                <a href="studio.html" class="change__lang">Eng</a>
+                <a href="studio-fra.html" class="change__lang">Fra</a>
+                <a href="studio-ru.html" class="change__lang">Rus</a>
+                <a href="studio-sv.html" class="change__lang">Swed</a>
+            </div>
+            <label for="check" class="burger__menu">
+                <span class="bars"></span>
+            </label>
+        </nav>
+    </header>
+    <main class="main" style="padding: 0;">
+        <section class="studio__bg">
+            <img src="../images/studio.jpg" alt="" width="100%" style="object-fit: cover; max-height: 300px; height: 100%; min-height: 200px;">
+        </section>
+        <section class="intria__studio" style="padding: 0 15px;">
+            <div class="container">
+                <div class="intria__studio__content">
+                    <h1 class="intria__studio__title">Intria Studio</h1>
+                    <p class="intria__studio__descr">Make is a different kind of architecture practice. Founded by
+                        Robert Downey Jr in 2004, we’re an employee-owned firm pursuing a democratic design process that
+                        values everyone’s input.</p>
+                    <p class="intria__studio__descr">Today we have more than 150 people in London, Hong Kong and Sydney
+                        providing architecture, interior and urban design services from concept to completion.</p>
+                </div>
+            </div>
+        </section>
+        <section class="specialization" style="padding-left: 15px !important; padding-right: 15px !important;">
+            <div class="container">
+                <div class="specialization__content">
+                    <h2 class="specialization__title">Our Speciallization</h2>
+                    <div class="specialization__cards">
+                        <div class="specialization__card">
+                            <img src="../images/spec_1.png" alt="" class="specialization__card__img">
+                            <h3 class="specialization__card__title">ARCHITECTURE</h3>
+                            <h4 class="specialization__card__descr">Inter’s singular aim is to design the best
+                                buildings, places and spaces in the world. A central part of this is providing the
+                                complete design of buildings across a range of sectors.</h4>
+                            <a href="#" class="specialization__card__link">View project</a>
+                        </div>
+                        <div class="specialization__card">
+                            <img src="../images/spec_2.png" alt="" class="specialization__card__img">
+                            <h3 class="specialization__card__title">INTERIOR</h3>
+                            <h4 class="specialization__card__descr">Inter’s singular aim is to design the best
+                                buildings, places and spaces in the world. A central part of this is providing the
+                                complete design of buildings across a range of sectors.</h4>
+                            <a href="#" class="specialization__card__link">View project</a>
+                        </div>
+                        <div class="specialization__card">
+                            <img src="../images/spec_3.png" alt="" class="specialization__card__img">
+                            <h3 class="specialization__card__title">URBAN DESIGN</h3>
+                            <h4 class="specialization__card__descr">Inter’s singular aim is to design the best
+                                buildings, places and spaces in the world. A central part of this is providing the
+                                complete design of buildings across a range of sectors.</h4>
+                            <a href="#" class="specialization__card__link">View project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews" style="padding-left: 15px !important; padding-right: 15px !important;">
+            <div class="container">
+                <div class="reviews__content">
+                    <div class="reviews__top">
+                        <h2 class="reviews__title">+2,500 HAPPY CLIENTS</h2>
+                        <div class="reviews__buttons">
+                            <button class="slider__prev">
+                                <i class="fal fa-chevron-left"></i>
+                            </button>
+                            <button class="slider__next">
+                                <i class="fal fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-container mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="slide swiper-slide">
+                                <div class="reviews__slide__top">
+                                    <h3 class="reviews__slide__title"><span class="reviews__slide__special">Bobs
+                                            Hanley</span> / Director at Chobham Manor</h3>
+                                    <i class="fas fa-quote-right lime"></i>
+                                </div>
+                                <p class="reviews__slide__descr">Paras stalor ed elit quam, iaculis sed semper sit amet
+                                    udin
+                                    vitae nibh. at magna akal semperFusce commodo molestie luctus.Lorem ipsum vitalun
+                                    Dolor
+                                    tusima olatiup aculis sed semper sit ame</p>
+                            </div>
+                            <div class="slide swiper-slide">
+                                <div class="reviews__slide__top">
+                                    <h3 class="reviews__slide__title"><span class="reviews__slide__special">Ryan
+                                            Betthalyn</span> / Director at Chobham Manor</h3>
+                                    <i class="fas fa-quote-right lime"></i>
+                                </div>
+                                <p class="reviews__slide__descr">Sed elit quam, iaculis sed semper sit amet udin vitae
+                                    nibh.
+                                    Rubino staveuo at magna akal semperFusce commodo molestie luctus.Lorem ipsum ulicon
+                                    Dolor tusima olatiup.</p>
+                            </div>
+                            <div class="slide swiper-slide">
+                                <div class="reviews__slide__top">
+                                    <h3 class="reviews__slide__title"><span class="reviews__slide__special">Ryan
+                                            Betthalyn</span> / Director at Chobham Manor</h3>
+                                    <i class="fas fa-quote-right lime"></i>
+                                </div>
+                                <p class="reviews__slide__descr">Sed elit quam, iaculis sed semper sit amet udin vitae
+                                    nibh.
+                                    Rubino staveuo at magna akal semperFusce commodo molestie luctus.Lorem ipsum ulicon
+                                    Dolor tusima olatiup.</p>
+                            </div>
+                            <div class="slide swiper-slide">
+                                <div class="reviews__slide__top">
+                                    <h3 class="reviews__slide__title"><span class="reviews__slide__special">Ryan
+                                            Betthalyn</span> / Director at Chobham Manor</h3>
+                                    <i class="fas fa-quote-right lime"></i>
+                                </div>
+                                <p class="reviews__slide__descr">Sed elit quam, iaculis sed semper sit amet udin vitae
+                                    nibh.
+                                    Rubino staveuo at magna akal semperFusce commodo molestie luctus.Lorem ipsum ulicon
+                                    Dolor tusima olatiup.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="last__slider" style="padding: 0 15px;">
+            <div class="container">
+                <div class="swiper-container mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="../images/slider-img-1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../images/slider-img-2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../images/slider-img-3.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../images/slider-img-4.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../images/slider-img-5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our__team" style="padding: 0 15px;">
+            <div class="container">
+                <div class="our__team__content">
+                    <div class="our__team__top">
+                        <h2 class="our__team__top__title">Meet Our Team</h2>
+                        <div class="reviews__buttons">
+                            <button class="slider__prev2">
+                                <i class="fal fa-chevron-left"></i>
+                            </button>
+                            <button class="slider__next2">
+                                <i class="fal fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-container mySwiper3">
+                        <div class="our__team__slider swiper-wrapper">
+                            <div class="slider__card swiper-slide" >
+                                <img src="../images/team-1.jpg" alt="" class="mobile__600px">
+                                <div class="slider__item">
+                                    <h2 class="slider__item__title">Alex Ferguson</h2>
+                                    <h3 class="slider__item__descr">CEO founder</h3>
+                                    <ul class="slider__list">
+                                        <li><a href="#" class="slider__link">
+                                                <i class="fab fa-twitter"></i>
+                                            </a></li>
+                                        <li><a href="#" class="slider__link">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a></li>
+                                        <li><a href="#" class="slider__link">
+                                                <i class="fab fa-invision"></i>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="slider__card swiper-slide" >
+                                <img src="../images/team-2.jpg" alt="" class="mobile__600px">
+                                <div class="slider__item">
+                                    <h2 class="slider__item__title">Alex Ferguson</h2>
+                                    <h3 class="slider__item__descr">CEO founder</h3>
+                                    <ul class="slider__list">
+                                        <li><a href="#" class="slider__link">
+                                                <i class="fab fa-twitter"></i>
+                                            </a></li>
+                                        <li><a href="#" class="slider__link">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a></li>
+                                        <li><a href="#" class="slider__link">
+                                                <i class="fab fa-invision"></i>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="slider__card swiper-slide" >
+                                <img src="../images/team-3.jpg" alt="" class="mobile__600px">
+                                <div class="slider__item">
+                                    <h2 class="slider__item__title">Alex Ferguson</h2>
+                                    <h3 class="slider__item__descr">CEO founder</h3>
+                                    <ul class="slider__list">
+                                        <li><a href="#" class="slider__link">
+                                                <i class="fab fa-twitter"></i>
+                                            </a></li>
+                                        <li><a href="#" class="slider__link">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a></li>
+                                        <li><a href="#" class="slider__link">
+                                                <i class="fab fa-invision"></i>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="slider__card swiper-slide" >
+                                <img src="../images/team-4.jpg" alt="" class="mobile__600px">
+                                <div class="slider__item">
+                                    <h2 class="slider__item__title">Alex Ferguson</h2>
+                                    <h3 class="slider__item__descr">CEO founder</h3>
+                                    <ul class="slider__list">
+                                        <li><a href="#" class="slider__link">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li><a href="#" class="slider__link">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li><a href="#" class="slider__link">
+                                                <i class="fab fa-invision"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our__team__bottom">
+                        <a href="contact.html" class="our__team__bottom__title">JOIN OUR TEAM</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer footer__mobile">
+        <div class="container">
+            <div class="footer__content">
+                <h2 class="footer__title">Intria</h2>
+                <div class="footer__box">
+                    <div class="footer__block">
+                        <h3 class="footer__title">CONTACT</h3>
+                        <p class="footer__descr">17 Princess Road, London, Greater London, NW18JR, United Kingdom</p>
+                        <a href="#" class="footer__link">email</a>
+                        <a href="#" class="footer__link">number</a>
+                    </div>
+                    <div class="footer__block footer__block-right">
+                        <h3 class="footer__title">QUICK LINKS</h3>
+                        <a href="contact.html" class="footer__link">Affiliate</a>
+                        <a href="blog.html" class="footer__link">Blog</a>
+                        <a href="work-view-one.html" class="footer__link">Work view-one</a>
+                        <a href="work-view-two.html" class="footer__link">Work view-two</a>
+                    </div>
+                    <div class="footer__block">
+                        <h3 class="footer__title">COMPANY</h3>
+                        <a href="studio.html" class="footer__link">About</a>
+                        <a href="contact.html" class="footer__link">Contact</a>
+                        <a href="blog.html" class="footer__link">Blog</a>
+                    </div>
+                    <div class="footer__block footer__block-right">
+                        <h3 class="footer__title">ABOUT US</h3>
+                        <a href="studio.html" class="footer__link">about our specialists</a>
+                        <a href="blog.html" class="footer__link">our works</a>
+                        <a href="contact.html" class="footer__link">our location</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__end">© 2021 <a href="index.html" class="footer__intria">Intria.</a> All Rights
+                    Reserved</p>
+                <div class="footer__end__block">
+                    <a href="#" class="footer__end__link">Twitter</a>
+                    <a href="#" class="footer__end__link">Facebook</a>
+                    <a href="#" class="footer__end__link">Instagram</a>
+                    <a href="#" class="footer__end__link">Tumblr</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/slider.js"></script>
+</body>
+
+</html>
